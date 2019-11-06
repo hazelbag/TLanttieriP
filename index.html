@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+  <!--Added further styling to non bootstrap content using CSS-->
+  <link rel="stylesheet" type="text/css" href="myStyle.css" />
+  <title>Teresa Lantieri Photography</title>
+</head>
+
+<body>
+  <!--Navbar set to collapse on smaller screens to allow opening of navbar-->
+  <nav class="navbar navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about">About Me</a>
+          <a class="nav-item nav-link" href="#products">Products</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Using jumbatron to create page heading - alse set to not round corners and fill screen-->
+  <div class="jumbotron jumbotron-fluid bg-dark text-white text-center">
+    <div class="container">
+      <h1 class="display-2">Teresa Lantieri Photography</h1>
+      <br />
+      <p class="lead">photography for the love of moments and memories</p>
+      <!--Image has been set to be resposnive so that when the browser window scales it scales with the parent element-->
+      <p>
+        <img src="images\Teresa.jpg" class="img-fluid" alt="Responsive Image" />
+      </p>
+    </div>
+  </div>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h1 class="text-center">
+        Here is a bit about me and what got me into photography, feel free to
+        explore my offerings below and also take a look at some of my work on
+        <a href="https://www.instagram.com/teresakerryannlantieri/?hl=en" target="_blank">
+          Instagram</a>.
+      </h1>
+      <table class="table-hover mt-5" id="table-info">
+        <tr>
+          <th style="text-align: center">About Me</th>
+          <th style="text-align: center">Why Photography</th>
+          <th style="text-align: center">What I love</th>
+        </tr>
+        <tr>
+          <td rowspan="2" style="text-align: center">
+            Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat.
+          </td>
+          <td rowspan="2" style="text-align: center">
+            Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat.
+          </td>
+          <td rowspan="2" style="text-align: center">
+            Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat.
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!--Section added with header and paragraph info about projects - container fluid and aligned center
+display 4 of bootstrap used and paragrap lead added-->
+  <section class="mt-5" id="products">
+    <div class="fluid text-center">
+      <div class="container">
+        <h2 class="display-4">Below you will find more information</h2>
+        <p class="lead">
+          The items below are some of the photofraphs I have taken and the
+          services offered.
+        </p>
+        <p class="lead">
+          I offer various types of bundles to suit your need and budget
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--Cards added with items offered and two links to more info and to order now
+  items have been placed in grid for styling and have been aligned to 6/4 per row
+img class set to thumbnail, this gives the image a rounded border of 1px-->
+  <div class="container text-muted py-3 mt-5">
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <div class="card shadow">
+          <img class="img-thumbnail border-0" src="images\Collage 1.jpg" alt="Product 1"
+            style="width: 600px; height: 370px;" />
+          <div class="card-body">
+            <h5 class="card-title">Business Listing</h5>
+            <p class="card-text">
+              New business listing? Let me take photos of your business for
+              your new website. Prices start at R800.00
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="card mb-3 shadow">
+          <img class="img-thumbnail border-0" src="images\Baking.jpg" alt="Product 2"
+            style="width: 600px; height: 370px;" />
+          <div class="card-body">
+            <h5 class="card-title">Bakery</h5>
+            <p class="card-text">
+              Cupcakes made to your preference and decorated to suit your
+              event.<br />Prices start at R140.00 per dozen
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3 shadow">
+          <img class="img-thumbnail border-0" src="images\Collage 3.jpg" alt="Product 3"
+            style="width: auto; height: 250px;" />
+          <div class="card-body">
+            <h5 class="card-title">Wedding Photography</h5>
+            <p class="card-text">
+              Wedding photography to suit your style and need, various
+              weddings catered to. Prices start at R6 500.00
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow">
+          <img class="img-thumbnail border-0" src="images\Kids Birthday.jpg" alt="Product 4"
+            style="width: auto; height: 250px;" />
+          <div class="card-body">
+            <h5 class="card-title">Birthdays</h5>
+            <p class="card-text">
+              Celebrating a birthday? Let me capture the memories for you.<br />
+              Prices start at R1 200.00
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow">
+          <img class="img-thumbnail border-0" src="images\Collage 4.jpg" alt="Product 5"
+            style="width: auto; height: 250px;" />
+          <div class="card-body">
+            <h5 class="card-title">Wedding Photography</h5>
+            <p class="card-text">
+              Wedding photography to suit your budget, various weddings
+              catered to. Contact me to discuss in detail.
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="card  mb-3 shadow">
+          <img class="img-thumbnail border-0" src="images\Collage 2.jpg" alt="Product 6" />
+          <div class="card-body">
+            <h5 class="card-title">Family Events</h5>
+            <p class="card-text">
+              Family event or small events? I will photograph them for you to
+              keep the memories. Prices start at R1 200.00
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="card shadow">
+          <img class="img-thumbnail border-0" src="images\Box 1.jpg" alt="Product 7" />
+          <div class="card-body">
+            <h5 class="card-title">Gift Boxes</h5>
+            <p class="card-text">
+              Various gift boxes, ranges from baby showers to christmas
+              hampers. Have your own idea? Contact me to to discuss further
+              details.
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow">
+          <img class="img-thumbnail border-0" src="images\Baby Shower.jpg" alt="Product 8"
+            style="width: auto; height: 300px;" />
+          <div class="card-body">
+            <h5 class="card-title">Baby Showers</h5>
+            <p class="card-text">
+              Capturing the moment in time, celebrating the joy of your soon
+              to be newborn? Let's capture the moment in time. Prices range
+              from R800.00
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow">
+          <img class="img-thumbnail border-0" src="images\Brand Promotion.jpg" alt="Product 9"
+            style="width: auto; height: 300px;" />
+          <div class="card-body">
+            <h5 class="card-title">Brand Promotion Photography</h5>
+            <p class="card-text">
+              Launched a new product? I will assist with your needs, contact
+              me to discuss in more detail. Prices start at R1 400.00 contact
+              me for more information
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow">
+          <img class="img-thumbnail border-0" src="images\Boudoir.jpg" alt="Product 10"
+            style="width: auto; height: 300px;" />
+          <div class="card-body">
+            <h5 class="card-title">Boudoir Photography</h5>
+            <p class="card-text">
+              Looking to do a boudoir shoot, get pictures for your portfolio?
+              I can assist. Contact me to discuss your needs in details.
+              Prices start at R800.00
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#contact" class="card-link">More Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <section class="contact-form mb-4" id="contact">
+    <form>
+      <div class="container">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputDetails">Name & Surname</label>
+            <input type="inputDetails" class="form-control" id="inputDetails" placeholder="Your Name & Surname"
+              required />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Email Address</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputNumber">Contact Number</label>
+            <input type="text" class="form-control" id="inputNumber" placeholder="Contact Number" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="itemSelection">Item Selection</label>
+            <select id="itemSelection" class="form-control">
+              <option selected>Choose...</option>
+              <option>Business Listing</option>
+              <option>Bakery</option>
+              <option>Wedding Photography</option>
+              <option>Birthday Parties</option>
+              <option>Weddings Away Photography</option>
+              <option>Family Events</option>
+              <option>Gift Boxes</option>
+              <option>Baby Shower</option>
+              <option>Brand Promotion</option>
+              <option>Boudoir Shoot</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-outline-dark" onclick='alert("Message has been sent")'>
+          Submit
+        </button>
+      </div>
+    </form>
+    <br />
+    <div class="container" id="contactInfo">
+      <h2 class="display-4">Alternatively contact me via mobile or email</h2>
+      <p>Email: xxxx@xxxx.com</p>
+      <P>Mobile: 123-456-7890</P>
+    </div>
+  </section>
+
+  <br />
+
+  <footer>
+    <div class="jumbotron jumbotron-fluid bg-dark text-white text-center">
+      <div class="container">
+        <p>
+          Website created &amp; maintained by &copy;
+          <a href="https://github.com/hazelbag" target="_blank">
+            Jacques Olivier</a>. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
